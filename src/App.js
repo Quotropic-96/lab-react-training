@@ -1,10 +1,12 @@
 import './App.css';
-import IdCard from './components/IdCard';
+// import IdCard from './components/IdCard';
+import Greetings from './components/Greetings';
 
 function App() {
   return (
     <div>
       <h1>App</h1>
+      {/* 1st Iteration
       <IdCard
         lastName='Doe'
         firstName='John'
@@ -21,7 +23,9 @@ function App() {
         height={172}
         birth={new Date("1988-05-11")}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
-      />
+      /> */}
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
     </div>
   );
 }
