@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.driver-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #61dafb;
+  height: 150px;
+  margin: 20px 50px 20px 50px;
+  border-radius: 10px;
+}
+
+.driver-card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
