@@ -6,18 +6,24 @@ function Carousel({images}) {
 
     useEffect(() => {
         setImage(images[imgIdx])
-    }, [imgIdx])
+    }, [imgIdx]);
 
     const handleLeft = () => {
         if (imgIdx > 0) {
             setImgIdx(prev => prev - 1);
         }
     }
+    const handleRight = () => {
+        if (imgIdx < images.length - 1) {
+            setImgIdx(prev => prev + 1);
+        }
+    }
+
     return ( 
         <div>
             <img src={image} alt="Default" />
             <button onClick={handleLeft}>Left</button>
-            <button>Right</button>
+            <button onClick={handleRight}>Right</button>
         </div>
      );
 }
