@@ -5,7 +5,8 @@ import './App.css';
 // import BoxColor from './components/BoxColor';
 // import CreditCard from './components/CreditCard';
 // import Rating from './components/Rating';
-import DriverCard from './components/DriverCard';
+// import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
 
 function App() {
   return (
@@ -86,7 +87,7 @@ function App() {
       <Rating>4</Rating>
       <Rating>5</Rating> */}
 
-      <DriverCard
+      {/* <DriverCard
         name="Travis Kalanick"
         rating={4.2}
         img="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428"
@@ -104,7 +105,8 @@ function App() {
           model: "Audi A3",
           licensePlate: "BE33ER"
         }}
-      />
+      /> */}
+      <LikeButton />
     </div>
   );
 }
