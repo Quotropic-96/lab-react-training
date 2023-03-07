@@ -77,3 +77,18 @@
 .faceBookInfo span {
   font-weight: bold;
 }
+.countryBar {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+button {
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  padding: 5px;
+}
+.selectedCountry {
+  background-color: #282c34;
+  color: aliceblue;
+}
